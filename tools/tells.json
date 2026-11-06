@@ -1,0 +1,172 @@
+{
+  "version": "0.7.3",
+  "frozen": "2026-11-02",
+  "lamp": {
+    "source": "Chakrabarty, Laban and Wu, 'Can AI writing be salvaged?', CHI 2025, arXiv 2409.14509 (CC BY 4.0), section 4.4. 'House rule' marks our own rules that LAMP does not cover.",
+    "categories": ["Cliche", "Unnecessary/Redundant Exposition", "Purple Prose", "Poor Sentence Structure", "Lack of Specificity and Detail", "Awkward Word Choice and Phrasing", "Tense Inconsistency", "House rule"],
+    "families": {
+      "em-dash": "House rule", "exclamation": "House rule", "budget": "House rule",
+      "not-x-but-y": "Cliche", "run-up": "Cliche", "triplet": "Cliche", "stock-phrase": "Cliche", "saccharin": "Cliche", "the-way": "Cliche", "body-emotion": "Cliche", "stock-beat": "Cliche", "stock-name": "Cliche", "drumroll-split": "Cliche",
+      "ing-tail": "Unnecessary/Redundant Exposition", "stage-direction": "Unnecessary/Redundant Exposition", "irony-tail": "Unnecessary/Redundant Exposition", "landing": "Awkward Word Choice and Phrasing", "orphan": "Lack of Specificity and Detail", "product-subject": "House rule", "blame": "House rule", "bare-negative": "Lack of Specificity and Detail", "faux-plain": "Unnecessary/Redundant Exposition", "design-leak": "Awkward Word Choice and Phrasing", "dropped-speaker": "House rule", "metadiscourse": "Unnecessary/Redundant Exposition", "landing-verb": "Awkward Word Choice and Phrasing", "mind-read": "Unnecessary/Redundant Exposition", "mind-read-soft": "Unnecessary/Redundant Exposition", "signpost": "Unnecessary/Redundant Exposition",
+      "connector": "Poor Sentence Structure", "afterthought-aside": "Poor Sentence Structure", "same-shape": "Poor Sentence Structure", "rhythm": "Poor Sentence Structure", "staccato": "Poor Sentence Structure", "same-opening": "Poor Sentence Structure",
+      "specificity": "Lack of Specificity and Detail", "corrective-framing": "Cliche", "format": "House rule", "band": "Poor Sentence Structure",
+      "copula-dodge": "Awkward Word Choice and Phrasing", "style-word": "Awkward Word Choice and Phrasing", "pet-word": "Awkward Word Choice and Phrasing", "hedge": "Awkward Word Choice and Phrasing"
+    },
+    "notCoveredByG1": ["Purple Prose", "Tense Inconsistency"]
+  },
+  "note": "Patina G1 tells. Rebuilt from the documented tells (anti-sameness guide v1.1, human-voice skill, Luke's r/WritingWithAI checklist and style sheet 5b, Nathan's ten rules, kitchen-table kill list, Wikipedia Signs of AI writing). Never paste this list into a drafting prompt (Antislop's pink elephant). Change only with a test and a CHANGELOG line.",
+  "families": {
+    "afterthought-aside": "A 1 to 4 word adverbial slipped in after a comma in narration (', once,', ', left side,', 'The remote, one hand.'). Fine once a page; as a habit it is a cadence (Nathan, 6 Nov 2026). Counted by form in fiction narration only.",
+    "em-dash": "Em or en dash used as a dash. Nathan's house rule: none, ever.",
+    "not-x-but-y": "Negative parallelism: 'it's not X, it's Y', 'not just X but Y', 'Y, not X.', 'They aren't X. They're Y.' The stickiest tell.",
+    "run-up": "Staged run-up or rhetorical question answered at once ('The result?', 'Here's the thing').",
+    "triplet": "Rule-of-three list by reflex.",
+    "ing-tail": "'-ing' clause that comments on importance (', highlighting...', ', ensuring...').",
+    "copula-dodge": "'serves as', 'stands as', 'boasts' where 'is' or 'has' would do.",
+    "style-word": "Excess-vocabulary words from tuned models (Kobak et al. 2025; Liang et al. 2024).",
+    "pet-word": "Fiction pet words from r/WritingWithAI and Wikipedia's mid-2026 list; fine alone, a tell in bulk.",
+    "connector": "Signposting connector opening a sentence (Additionally, Moreover).",
+    "stock-phrase": "Stock assistant phrase.",
+    "saccharin": "Fake warmth (saccharin helpfulness).",
+    "hedge": "Hedge stack or reflex hedge.",
+    "the-way": "'The way' simile or 'with the X of someone who' (invents a third person to describe your character).",
+    "stage-direction": "Mood stage direction on a dialogue tag ('he said, to the window').",
+    "body-emotion": "Stock body-sensation emotion (chest tightened, knuckles white).",
+    "stock-beat": "Stock beat: something shifted, the room fell silent, a breath she didn't know she was holding.",
+    "irony-tail": "Trailing irony clause (', which was another way of saying...', ', which is worse').",
+    "landing": "The landing verb: a modern motion idiom standing in for the plain act ('the strip she lands on'), often with a vague container noun and a narrator's 'happens to be' reveal. She is not an aeroplane.",
+    "landing-verb": "Soft cousins of the landing verb (ends up, stumbles upon): fine once, a fingerprint in bulk.",
+    "product-subject": "Headline where the product is the one acting ('Your website answers...'). Nathan judged every such line flat. The reader should hold the verb (Speak to People, 6 Nov 2026).",
+    "blame": "Headline that casts the reader as failing ('Not answering your phone?', 'How many jobs went to...'). Scolding is not speaking to someone.",
+    "orphan": "Short line that opens on It, This, That or They with nothing before it: a cold reader cannot tell what it is (Nathan: 'It didn't guess').",
+    "bare-negative": "Short line that only says what did not happen. Say what it does.",
+    "faux-plain": "A made-up customer explaining how the product works ('It knows because I...'). Real people say what happened to them.",
+    "design-leak": "A word from the project's own design language in spoken or testimonial copy (Sheaf: 'papers'). Customers do not talk like the style sheet.",
+    "dropped-speaker": "The speaker was cut ('Found my boiler warranty...'). Put the I back: Claim the Line (libraries/principles/claim-the-line.md).",
+    "metadiscourse": "Empty signposting and recap closers ('In this section', 'The key takeaway'). Source pack 5 Nov 2026.",
+    "signpost": "Narrator or writer signposting sincerity ('I'll say it plainly', 'I want to be clear').",
+    "stock-name": "Stock AI character name.",
+    "exclamation": "Exclamation mark.",
+    "drumroll-split": "A caption split so the second line pays off the first ('Each sentence,' / 'checked.').",
+    "same-shape": "Cards or lines that share one shape in a row.",
+    "budget": "Line over the profile's word budget.",
+    "specificity": "Too few checkable specifics (numbers, names, places, quotes).",
+    "rhythm": "Sentence lengths too even (Nathan's rule 1: vary radically).",
+    "staccato": "Three or more very short narration sentences in a row.",
+    "same-opening": "Three sentences in a row that open with the same word.",
+    "corrective-framing": "Mid-2026 corrective framing: should be treated as X rather than Y, does not establish that.",
+    "format": "Assistant formatting habits: bold lead-ins on every list item, emoji bullets.",
+    "band": "Nearly every sentence inside 8 to 20 words (Wikipedia, mid-2026 sign)."
+  },
+  "rules": [
+    {"id": "em-dash", "family": "em-dash", "weight": 3, "re": "\u2014|\u2013|\\s--\\s", "hint": "Use a full stop, comma, colon or brackets."},
+
+    {"id": "nxy-its-not", "family": "not-x-but-y", "weight": 3, "re": "\\b(?:it|that|this|they|he|she|which)(?:'s|\u2019s| is| was| are| were)?\\s*(?:not|n't|n\u2019t)\\b[^.;:!?\\n]{1,40}?[,;]\\s*(?:it|that|this|they|he|she)(?:'s|\u2019s| is| was|'re|\u2019re| are| were)\\b", "flags": "gi", "hint": "Say Y. Drop the X it is 'not'."},
+    {"id": "nxy-not-just", "family": "not-x-but-y", "weight": 3, "re": "\\bnot (?:just|only|merely|simply) [^.;:!?\\n]{1,50}?\\bbut\\b", "flags": "gi", "hint": "Say the second thing on its own."},
+    {"id": "nxy-y-not-x", "family": "not-x-but-y", "weight": 2, "re": ",\\s+not\\s+(?!(?:looking|knowing|waiting|thinking|wanting|caring|meaning|moving|speaking|smiling|turning)\\b)(?!yet\\b|once\\b|really\\b|quite\\b|much\\b|long\\b|that\\b|one\\b|even\\b|a word\\b)[^,.;:!?\\n\"\u201d]{1,30}[.!?]", "flags": "gi", "hint": "End on the thing it is. Cut ', not X'."},
+    {"id": "nxy-two-sentences", "family": "not-x-but-y", "weight": 2, "re": "\\b(?:is|are|was|were|do|does|did)(?:n't|n\u2019t)\\b[^.!?\\n]{1,40}\\.(?:[ \\t]+|[ \\t]*\\n[ \\t]*(?=\\S))(?:It|They|He|She|We|You|That)(?:'s|\u2019s|'re|\u2019re| is| are| was| were)\\b", "flags": "g", "hint": "'They aren't X. They're Y.' Say Y."},
+    {"id": "nxy-not-not-just", "family": "not-x-but-y", "weight": 3, "re": "\\bNot [^.!?\\n]{1,30}\\.(?:[ \\t]+|[ \\t]*\\n[ \\t]*(?=\\S))Not [^.!?\\n]{1,30}\\.", "flags": "g", "hint": "'Not X. Not Y. Just Z.' Say Z."},
+    {"id": "nxy-not-lead", "family": "not-x-but-y", "weight": 1.5, "re": "(?:^|[.!?]\\s+)Not [^.;:!?\\n]{1,30}[;:]", "flags": "gm", "profiles": ["fiction", "web", "email", "pro-email", "technical", "playful"], "hint": "Open on what it is, not what it is not."},
+
+    {"id": "runup-staged", "family": "run-up", "weight": 3, "re": "\\b(?:The result|The best part|The catch|The twist|The kicker|The problem|The answer|The truth|The secret|Honestly|The good news|The bad news)\\?", "flags": "g", "hint": "Cut the run-up; start with the answer."},
+    {"id": "runup-heres", "family": "run-up", "weight": 3, "re": "\\bHere(?:'s|\u2019s| is) (?:the thing|the kicker|the catch|why|what)\\b", "flags": "gi", "hint": "Cut the announcement; say the thing."},
+    {"id": "runup-qa", "family": "run-up", "weight": 2, "re": "[^.?!\\n/]{3,60}\\?[ \\t]*(?:/[ \\t]*)?(?:\\n[ \\t]*(?=\\S))?[A-Z][^.?!\\n]{1,30}\\.", "flags": "g", "profiles": ["captions", "ui", "web"], "hint": "A question answered at once is a drumroll. State the fact."},
+
+    {"id": "triplet", "family": "triplet", "weight": 0.5, "re": "\\b[A-Za-z']+(?: [A-Za-z']+)?, (?!and\\b|or\\b)[A-Za-z']+(?: [A-Za-z']+)?,? (?:and|or) (?!all\\b|that\\b|so\\b|more\\b|it\\b|them\\b|then\\b)[A-Za-z']+(?: [A-Za-z']+)?(?=[.,;:!?])", "flags": "g", "hint": "Keep the true one, or give four with an odd one."},
+
+    {"id": "ing-tail", "family": "ing-tail", "weight": 2, "re": ",\\s(?:highlighting|underscoring|emphasi[sz]ing|showcasing|reflecting|ensuring|fostering|cementing|solidifying|marking|signal(?:l)?ing|illustrating|demonstrating|contributing to|paving the way|making it (?:a|an|the))\\b", "flags": "gi", "hint": "Cut the tail; if it matters, give it its own plain sentence."},
+    {"id": "copula-dodge", "family": "copula-dodge", "weight": 2, "re": "\\b(?:serves as|serve as|stands as|acts as a|boasts|boast a)\\b", "flags": "gi", "hint": "Use 'is' or 'has'."},
+
+    {"id": "style-words", "family": "style-word", "weight": 2, "re": "\\b(?:delv(?:e|es|ed|ing)|tapestry|testament|underscor(?:e|es|ed|ing)|pivotal|crucial|vibrant|bustling|nestled|showcas(?:e|es|ed|ing)|seamless(?:ly)?|robust|leverag(?:e|es|ed|ing)|foster(?:s|ed|ing)?|elevat(?:e|es|ed|ing)|unlock(?:s|ed|ing)?|empower(?:s|ed|ing)?|realm|meticulous(?:ly)?|intricate|comprehensive|transformative|game-changer|commendable|embark(?:s|ed|ing)?|multifaceted|paramount|invaluable|noteworthy|ever-evolving|effortless(?:ly)?|resonat(?:e|es|ed|ing)|synergy|holistic|cutting-edge|unparalleled|groundbreaking)\\b", "flags": "gi", "hint": "Use the plain word a person would say."},
+    {"id": "landscape-idea", "family": "style-word", "weight": 2, "re": "\\b(?:the|today's|an ever-changing|a changing) (?:\\w+ )?landscape of\\b|\\bnavigat(?:e|es|ing) the (?:complexities|world|challenges)\\b|\\bin the heart of\\b|\\brich (?:history|tapestry|heritage)\\b", "flags": "gi", "hint": "Name the actual place or thing."},
+    {"id": "journey-word", "family": "style-word", "weight": 1.5, "re": "\\b(?:journey|unleash|supercharge|precious)\\b", "flags": "gi", "profiles": ["web", "ui", "captions", "email", "pro-email", "technical", "playful"], "hint": "Kitchen-table kill list word."},
+    {"id": "pet-words", "family": "pet-word", "weight": 0.5, "re": "\\b(?:quietly|deliberate(?:ly)?|precise(?:ly)?|measured|particular|architecture|hum(?:med|ming)?|steady|matters|dependable|echoed|universally|prioriti[sz](?:e|es|ed|ing)|clearer|practical)\\b", "flags": "gi", "hint": "Fine once; in bulk it is a fingerprint. Swap or cut some."},
+
+    {"id": "connector-open", "family": "connector", "weight": 2, "re": "(?:^|[.!?]\\s+)(?:Additionally|Furthermore|Moreover|In conclusion|Ultimately|Notably|Importantly|In essence|Overall|In summary|That said),", "flags": "gm", "hint": "Let the ideas join by their own logic (Nathan's rule 7)."},
+
+    {"id": "stock-phrases", "family": "stock-phrase", "weight": 3, "re": "\\b(?:I hope this (?:email |message )?finds you well|I'?m writing to|I am writing to|let'?s dive in|dive into|in today'?s (?:fast-paced|digital|modern) world|it'?s important to note|it is important to note|it'?s worth noting|it is worth noting|plays? a (?:crucial|vital|key|pivotal|significant) role|is a testament to|look no further|rest assured|don'?t hesitate to|I'?d be (?:happy|glad) to|great question|I hope this helps|let me know if you have any (?:other )?questions|in conclusion|at the end of the day|when it comes to|whether you'?re a|to the next level|imagine a world|in a world where|the power of|stands the test of time)\\b", "flags": "gi", "hint": "Stock phrase. Say the specific thing, or cut."},
+
+    {"id": "saccharin", "family": "saccharin", "weight": 2, "re": "\\b(?:thrilled|absolutely|I completely understand|I totally understand|so excited|we'?re excited|delighted to|amazing|awesome|don'?t worry|no worries at all)\\b", "flags": "gi", "profiles": ["web", "ui", "captions", "email", "pro-email", "technical", "playful"], "hint": "One real kind line beats three warm words."},
+
+    {"id": "hedge-stack", "family": "hedge", "weight": 1, "re": "\\b(?:may|might|could|can) (?:potentially|possibly|often|generally|typically|arguably)\\b|\\bgenerally tends? to\\b|\\bit could be argued\\b", "flags": "gi", "hint": "One caveat, said once."},
+    {"id": "hedge-fiction", "family": "hedge", "weight": 0.5, "re": "\\b(?:seemed to|as if to|something like)\\b", "flags": "gi", "profiles": ["fiction"], "hint": "Say what happened."},
+
+    {"id": "the-way", "family": "the-way", "weight": 1, "re": "\\bthe way (?:a|an|you|someone|somebody|people|one|he|she|they|I)\\b", "flags": "gi", "profiles": ["fiction", "web"], "hint": "Swap for a simile from the narrator's own world, or cut. Watch the dose."},
+    {"id": "with-the-x-of", "family": "the-way", "weight": 2, "re": "\\bwith the \\w+ of (?:someone|somebody|a man|a woman|a person|one) who\\b", "flags": "gi", "hint": "Describe this character directly."},
+
+    {"id": "stage-direction", "family": "stage-direction", "weight": 2, "re": "\\b(?:said|says|asked|told (?:him|her|me|them))(?:,)? to the (?!door\\b|man\\b|woman\\b|boy\\b|girl\\b|room\\b|kids\\b|children\\b|class\\b)\\w+", "flags": "gi", "profiles": ["fiction"], "hint": "Luke A12: no mood stage directions. Give the line plain, or an action beat."},
+    {"id": "body-emotion", "family": "body-emotion", "weight": 2, "re": "chest (?:tighten|constrict)|jaw (?:tighten|clench)|knuckles (?:went|turned) white|stomach (?:dropped|knotted|lurched)|heart (?:hammered|pounded|skipped)|throat (?:tightened|closed)", "flags": "gi", "hint": "Sometimes just name the feeling, or show it by an act."},
+    {"id": "stock-beat", "family": "stock-beat", "weight": 2, "re": "\\bsomething (?:shifted|changed|broke|cracked|flickered) (?:in|inside|behind|across)\\b|\\b(?:room|world|house|kitchen|car|table) (?:fell|went) (?:silent|quiet|still)\\b|\\bbreath (?:he|she|I|they) didn'?t know\\b|\\blet out a breath\\b|\\ba beat passed\\b", "flags": "gi", "hint": "Name the actual movement or sound."},
+    {"id":"mind-read","family":"mind-read","weight":3,"re":"\\b(?:like|as if|as though) (?:it|that|this)(?:'s|’s| is| was| were) (?:a|an|the|some) [^.;:!?\\n]{1,30}? (?:he|she|they|I|we|you)(?:'s|’s|'d|’d|'ve|’ve| has| had| have) been \\w+ing\\b","flags":"gi","profiles":["fiction","playful","web"],"hint":"Mind-reading simile: the narrator explains a minor character's inner life. Show the act, or cut the simile.","source":"Luke Studio, Nathan flag, 3 Nov 2026"},
+    {"id":"mind-read-soft","family":"mind-read-soft","weight":0.5,"re":"\\b(?:as if|as though) (?!to\\b)(?:it|he|she|they|that|this|I|we|you)\\b","flags":"gi","profiles":["fiction"],"hint":"Fine once, can be the best laugh; in bulk the narrator is reading minds.","source":"Luke Studio, 3 Nov 2026"},
+    {"id":"landing-verb","family":"landing","weight":3,"re":"\\b(?:[Ss]he|[Hh]e|[Tt]hey|I|[Ww]e|[Yy]ou|[A-Z][a-z]+)\\s+(?:lands?|landed|landing)\\s+(?:on|in|at|upon)\\b(?!\\s+(?:her|his|their|my|its|your|our)\\b)","flags":"g","hint":"Say the plain act: she gleans in, walks into, works, finds herself in. She is not an aeroplane.","source":"Nathan, Lantern Studio Ruth 2, 5 Nov 2026"},
+    {"id":"landing-reveal","family":"landing","weight":3,"re":"\\b(?:she|he|they|I|we|you)\\s+(?:lands?|landed|ends? up|ended up|stumbles?|stumbled)(?:\\s+(?:on|in|at|into|upon))?\\s+happen(?:s|ed)?\\s+to\\s+be\\b","flags":"gi","hint":"Narrator's wink built on a landing verb. Keep the irony if it is the point, but say it plainly ('As it happens, the field she gleans is Boaz's').","source":"Nathan, Lantern Studio Ruth 2, 5 Nov 2026"},
+    {"id":"landing-soft","family":"landing-verb","weight":0.5,"re":"\\b(?:ends? up|ended up|stumbles? (?:on|upon|into)|stumbled (?:on|upon|into))\\b","flags":"gi","profiles":["fiction","web","playful"],"hint":"Fine once; in bulk say what they did.","source":"Nathan, 5 Nov 2026"},
+    {"id":"product-subject","family":"product-subject","weight":1,"re":"^\\s*(?:(?:Your|Our|The) (?:website|site|app|price list|files|terms|tool|software|platform|assistant|chatbot|system|inbox)|Sheaf|We)(?:'s|’s)?\\s+(?:\\w+s|is|are|can|will|has|now)\\b","flags":"gm","profiles":["headline"],"hint":"Make the reader the one who acts: what do THEY get to do? (\"Keep your Saturday.\")","source":"Nathan, 5 and 6 Nov 2026"},
+    {"id":"blame","family":"blame","weight":1,"re":"^\\s*(?:Not \\w+ing\\b|Stop \\w+ing\\b|Still \\w+ing\\b|Are you still\\b|Why (?:aren't|aren’t|don't|don’t) you\\b|How many \\w+ (?:went|did you lose|have you lost)\\b)","flags":"gm","profiles":["headline"],"hint":"Do not cast the reader as failing. Offer what they keep or gain.","source":"Nathan, 6 Nov 2026"},
+    {"id":"orphan-pronoun","family":"orphan","weight":3,"re":"^\\s*(?:It|This|That|They|These|Those|He|She)(?!(?:'s|’s|\\s+is)?\\s+(?:good|easy|hard|time|worth|nice|great|fine|better|best|safe|simple|free|okay|ok)\\s+(?:to|that)\\b)(?:'s|’s|'ll|’ll)?\\b","flags":"gm","profiles":["headline"],"hint":"Name the thing. A stranger reading only this line must know what it is about. A dummy it ('It's good to talk') is fine.","source":"Nathan, 5 Nov 2026"},
+    {"id":"faux-plain","family":"faux-plain","weight":3,"re":"\\b(?:[Ii]t|[A-Z][a-z]+) (?:knows|knew|works|worked|remembers|understands|answers|learns|gets it|finds it)\\b[^.!?\\n]{0,40}?\\bbecause (?:I|we)\\b","flags":"g","profiles":["headline","testimonial","spoken","captions","web","playful"],"hint":"Say what happened to the speaker, not how the product works.","source":"Nathan, 5 Nov 2026"},
+    {"id":"dropped-speaker","family":"dropped-speaker","weight":1.5,"re":"(?:^|[.!?]\\s+)(?:[A-Z][a-z]+ed|Found|Got|Made|Took|Kept|Sold|Spent|Saved|Had|Gave|Put|Sent|Paid|Built|Lost|Won|Did|Went|Came|Left|Ran|Met|Told|Read|Wrote|Cut)\\b(?![^.!?\\n]*\\bI\\b)[^.!?\\n]*\\bmy\\b","flags":"gm","profiles":["testimonial","spoken"],"hint":"Put the speaker back (\"I found...\"), and one small proud beat. Advisory until H1 is measured.","source":"Nathan, 5 Nov 2026 (Claim the Line"},
+    {"id":"metadiscourse","family":"metadiscourse","weight":1.5,"re":"\\b(?:[Tt]he key takeaway|[Tt]he bottom line is|[Ii]n this (?:section|article|post|guide|video)|[Aa]s we(?:'ve|’ve| have) seen|[Ll]et(?:'s|’s| us) (?:dive in|dive into|take a (?:closer )?look|explore)|[Ii]n the (?:next|following) section|[Tt]o sum (?:it )?up|[Aa]ll in all|[Aa]t the end of the day)\\b","flags":"g","profiles":["web","pro-email","technical","playful","email","spoken"],"hint":"Cut the signpost or the recap; say the thing.","source":"source pack, 5 Nov 2026"},
+    {"id": "irony-tail", "family": "irony-tail", "weight": 2, "re": ",\\s*which (?:was|is) (?:another way of saying|worse|better|the point|saying something|to say)\\b", "flags": "gi", "hint": "Keep only if it holds a fact."},
+    {"id": "signpost", "family": "signpost", "weight": 1.5, "re": "\\b(?:I'?ll say it plainly|I want to be clear|let me be clear|I'?ll be honest|to be honest|make no mistake|I'?ll say now)\\b", "flags": "gi", "hint": "Cut the announcement of sincerity; the plain line is enough."},
+    {"id": "stock-name", "family": "stock-name", "weight": 2, "re": "\\b(?:Kael|Elara|Elias|Voss|Lyra|Seraphina|Thorne|Aria Blackwood)\\b", "flags": "g", "profiles": ["fiction"], "hint": "Stock AI name; pick one from the setting."},
+
+    {"id": "corrective-framing", "family": "corrective-framing", "weight": 2, "re": "\\b(?:should|must|can|is best) (?:be )?(?:treated|seen|understood|read|framed) as [^.;\\n]{1,50}?\\brather than\\b|\\bshould not be confused with\\b|\\bdoes not (?:establish|imply|entail) that\\b", "flags": "gi", "hint": "Mid-2026 corrective framing (Wikipedia, Signs of AI writing). Say what it is.", "source": "Wikipedia, Signs of AI writing, 2 Nov 2026"},
+    {"id": "bold-lead-in", "family": "format", "weight": 1, "re": "^[ \\t]*(?:[-*]|\\d+\\.)[ \\t]+\\*\\*[^*\\n]{1,40}\\*\\*", "flags": "gm", "profiles": ["web", "email", "pro-email", "playful"], "hint": "Bold label at the start of every list item reads as a template (Wikipedia, Signs of AI writing). Use plain sentences or a table.", "source": "Wikipedia, Signs of AI writing, 2 Nov 2026"},
+    {"id": "emoji-bullet", "family": "format", "weight": 1, "re": "^[ \\t]*(?:[-*][ \\t]*)?\\p{Extended_Pictographic}", "flags": "gmu", "profiles": ["web", "email", "pro-email", "technical"], "hint": "Emoji opening a list item: an assistant habit.", "source": "Wikipedia, Signs of AI writing, 2 Nov 2026"},
+    {"id": "exclamation", "family": "exclamation", "weight": 1, "re": "!", "flags": "g", "profiles": ["ui", "captions", "web", "technical", "headline"], "hint": "Kitchen-table: no exclamation marks."}
+  ],
+  "profiles": {
+    "fiction": {
+      "ceiling": 3, "cvFloor": 0.45, "hard": ["em-dash", "mind-read", "landing"], "asides": true,
+      "doses": {"afterthought-aside": 1, "the-way": 1, "mind-read-soft": 2, "landing-verb": 2, "triplet": 6, "hedge": 4, "not-x-but-y": 1, "signpost": 0.5, "stage-direction": 0.5, "pet-word": 4, "irony-tail": 0.5, "stock-beat": 0.5},
+      "measure": ["rhythm", "staccato", "same-opening"],
+      "note": "Doses are per 1,000 words. Also run luke tools/readability_lint.py. cvFloor 0.45, not Luke's 0.55: Cather (1918, human) measures 0.47 (post-hoc change, 2 Nov 2026)."
+    },
+    "web": {
+      "ceiling": 4, "cvFloor": 0.45, "hard": ["em-dash", "not-x-but-y", "exclamation"],
+      "doses": {"triplet": 4, "the-way": 2, "metadiscourse": 2},
+      "measure": ["rhythm", "same-opening", "specificity"], "specificPerWords": 80
+    },
+    "captions": {
+      "ceiling": 3, "perUnit": true, "hard": ["em-dash", "exclamation", "budget", "not-x-but-y", "landing"],
+      "lineWords": 4, "linesPerCard": 2, "doses": {},
+      "measure": ["drumroll-split", "same-shape"],
+      "note": "One card per line of input; ' / ' splits the on-screen lines of a card."
+    },
+    "email": {
+      "ceiling": 4, "cvFloor": 0.4, "hard": ["em-dash", "not-x-but-y"],
+      "doses": {"triplet": 4},
+      "measure": ["rhythm", "specificity"], "specificPerWords": 80, "minWords": 40, "maxWords": 120,
+      "note": "Email or message sent as Nathan (voice nathan-plain)."
+    },
+    "pro-email": {
+      "ceiling": 4, "cvFloor": 0.35, "hard": ["em-dash", "not-x-but-y"],
+      "doses": {"triplet": 4, "hedge": 3},
+      "measure": ["rhythm", "specificity"], "specificPerWords": 80, "minWords": 25, "maxWords": 250,
+      "note": "Professional email from a business or an agent, not as Nathan: replies to clients, quotes, chasers, Upwork messages. Voice: kitchen-table, or nathan-plain when signed by Nathan."
+    },
+    "technical": {
+      "ceiling": 3, "cvFloor": 0.3, "hard": ["em-dash", "not-x-but-y", "exclamation"],
+      "doses": {"triplet": 6, "hedge": 3},
+      "measure": ["specificity"], "specificPerWords": 60,
+      "note": "Industrial, technical and B2B text: specs, help docs, method statements, reports. Even sentence lengths are normal here, so the rhythm floor is low; vagueness is not."
+    },
+    "playful": {
+      "ceiling": 4, "cvFloor": 0.5, "hard": ["em-dash"],
+      "doses": {"triplet": 3, "not-x-but-y": 1, "the-way": 2},
+      "measure": ["rhythm", "same-opening"],
+      "note": "Playful copy: social posts, packaging, fun product moments, storytelling ads. Exclamation marks and questions are allowed; AI-style threes and fake warmth are not. Voice: storyteller."
+    },
+    "headline": {"ceiling":3,"perUnit":true,"glossary":true,"hard":["em-dash","exclamation","budget","not-x-but-y","orphan","bare-negative","faux-plain","design-leak","landing"],"lineWords":10,"linesPerCard":2,"unitChecks":["bare-negative"],"doses":{},"measure":["same-shape"],"note":"Taglines, hero lines, page titles, title cards, ad headlines. One line per unit; ' / ' adds a subline. Write a brief first (templates/headline-brief.txt) and run 'patina lines'."},
+    "testimonial": {"ceiling":3,"perUnit":true,"glossary":true,"hard":["em-dash","faux-plain","design-leak","landing","mind-read"],"lineWords":40,"doses":{},"measure":[],"note":"A customer or owner speaking, one quote per line. Claim the Line: keep the I and one proud beat."},
+    "spoken": {"ceiling":4,"cvFloor":0.3,"glossary":true,"hard":["em-dash","faux-plain","design-leak","landing","mind-read"],"doses":{"triplet":4,"dropped-speaker":3,"metadiscourse":1},"measure":["rhythm"],"note":"Voiceover and narration written to be heard. Short spoken lines run even, so the rhythm floor is 0.3. Read it aloud (G5)."},
+    "ui": {
+      "ceiling": 3, "perUnit": true, "hard": ["em-dash", "exclamation", "budget", "not-x-but-y"],
+      "lineWords": 20, "doses": {},
+      "measure": ["same-shape"],
+      "note": "One string per line. Prefix a line with 'title:', 'button:', 'help:' or 'error:' to apply the kitchen-table budget (8, 3, 20 words, 2 sentences)."
+    }
+  }
+}

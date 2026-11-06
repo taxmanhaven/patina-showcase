@@ -1,0 +1,7 @@
+# Control: written cold from a one-paragraph brief.
+
+Ask a question about your own files.
+Every sentence has a source. / Open the exact page it came from.
+Not in your files? Sheaf says so. / It never guesses.
+Your files stay yours. / Your answers come with proof.
+Sheaf: answers from your own files.

@@ -1,0 +1,4 @@
+[
+  {"title": "The Hunger Games", "author": "Suzanne Collins", "year": 2008, "kind": "fiction", "register": "YA, first person, present tense, American", "texts": "chapters 1, 2, 5, 9, 12, 14, 16, 19, 23, 27", "ids": "hg-chNN", "supplied": "Nathan's own copy, 6 Nov 2026", "licence": "copyrighted: text kept in corpus/local-only, never committed; numbers only here"},
+  {"title": "Ready Player One", "author": "Ernest Cline", "year": 2011, "kind": "fiction", "register": "YA/adult crossover, first person, past tense, American", "texts": "prologue and sections 1, 2, 8, 15, 20, 22, 29, 36, 43 (about 3,000 words each)", "ids": "rpo-ch00, rpo-sNN", "supplied": "Nathan's own copy, 6 Nov 2026", "licence": "copyrighted: text kept in corpus/local-only, never committed; numbers only here"}
+]

@@ -1,0 +1,11 @@
+# Headline brief (Patina v0.6). Fill every field, then: node patina/tools/patina.mjs brief <this file>
+# One field per line, "name: value". Lines starting with # are ignored. Craft: patina/craft/headlines.md
+product: what it is, in a stranger's words (not the brand's)
+reader: who sees the line, and their awareness level (unaware, problem, solution, product, most)
+place: hero | page title | title card | ad | testimonial | end card | button
+speaker: brand | owner | customer | narrator
+one thing: the single fact the reader must leave with, in plain words
+tension: two things the reader wants that seem to fight (their evenings and the customer who rings at 9pm)
+after: what is different in the reader's week once it works, in their words (this is where appeal lives)
+proof: the true detail that backs it (a number, a page, a named object)
+next: what the reader does after reading

@@ -1,0 +1,4 @@
+node_modules/
+corpus/local-only/
+*.lab.jsonl
+*.an.jsonl

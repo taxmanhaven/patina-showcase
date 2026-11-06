@@ -1,0 +1,10 @@
+{
+  "name": "patina",
+  "version": "0.7.3",
+  "description": "Marks the lines in your draft that read as machine-written, and says why.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "bin": { "patina": "tools/patina.mjs" },
+  "scripts": { "test": "node --test tools/test/patina.test.mjs" },
+  "license": "MIT"
+}

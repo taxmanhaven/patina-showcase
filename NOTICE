@@ -1,0 +1,10 @@
+Not covered by this licence:
+- examples/before-after.png: excerpts from the short story The Third Pot,
+  copyright (c) 2026 Nathan. All rights reserved. Included to show what
+  Patina does; please don't reuse the story text.
+- corpus/fiction/cather_my-antonia_book1-ch2.txt: Willa Cather, My Antonia
+  (1918), public domain, via Project Gutenberg.
+- The norms are numbers derived from two published novels; no text from them
+  is included.
+- spaCy (MIT) and wordfreq (code Apache-2.0, data CC BY-SA 4.0) are not
+  included. You install them yourself.

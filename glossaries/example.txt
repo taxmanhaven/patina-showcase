@@ -1,0 +1,13 @@
+# Example glossary: a product's own design-language words. Fine in its docs and chrome;
+# a leak when a customer, owner or narrator says them (check S6). One word or phrase per line.
+papers
+marginalia
+margin note
+margin notes
+quire
+folio
+scribe
+parchment
+sheaves
+ledger
+inkwell
