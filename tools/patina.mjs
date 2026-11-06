@@ -237,6 +237,9 @@ export function check(text, profile, opts = {}) {
   if (cfg.glossary && opts.glossary && opts.glossary.length) hits.push(...glossaryHits(text, opts.glossary));
   const asides = cfg.asides ? afterthoughtAsides(text) : [];
   for (const a of asides) hits.push({ line: a.line, rule: 'afterthought-aside', family: 'afterthought-aside', weight: 0.5, excerpt: a.excerpt, hint: 'Afterthought aside. Fine once a page; as a habit it is a cadence ("btw every couple of sentences"). Fold it into the sentence, give it its own sentence, or cut it.' });
+  // Rules the writer switched off (a rule id, a family, or a measure: rhythm, band, staccato, specificity, length, score).
+  const off = new Set(opts.disable || []);
+  if (off.size) hits = hits.filter((h) => !off.has(h.rule) && !off.has(h.family));
 
   const srcLines = text.split(/\r?\n/);
   for (const h of hits) h.lamp = TELLS.lamp.families[h.family] || 'House rule';
@@ -292,6 +295,7 @@ export function check(text, profile, opts = {}) {
   if (cfg.minWords && words < cfg.minWords) fails.push(`length: ${words} words, under ${cfg.minWords}`);
   if (cfg.maxWords && words > cfg.maxWords) fails.push(`length: ${words} words, over ${cfg.maxWords}`);
 
+  if (off.size) for (let i = fails.length - 1; i >= 0; i--) if (off.has(fails[i].split(/[: ]/)[0])) fails.splice(i, 1);
   hits.sort((a, b) => a.line - b.line || b.weight - a.weight);
   // G3 works by LAMP category (Chakrabarty, Laban and Wu, CHI 2025), so count live hits per category.
   const lamp = {};

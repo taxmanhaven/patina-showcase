@@ -186,7 +186,7 @@ test('the G4 packet briefs an expert, frequent-AI-user critic with the LAMP name
   assert.match(packet, /You are not told how many of each/);
   for (const c of LAMP7) assert.ok(packet.includes(c), c);
 });
-test('version is 0.7.3', () => assert.equal(TELLS.version, '0.7.3'));
+test('version is 0.7.4', () => assert.equal(TELLS.version, '0.7.4'));
 
 // ---- v0.3: G3b locked-content voice pass ----
 const ORIG = 'He bought the pipe at Hadley\'s for eight dollars. It ran ten feet toward the pecan.\n\n"Try it," he said. I locked the door.';
